@@ -47,6 +47,7 @@ const Bookmark = (props: IBookmark): JSX.Element => {
      */
     const favicon = (): ReactNode => {
         return <img
+            alt    ={''}
             src    = {linkFavicon}
             height = {20}
             width  = {20}

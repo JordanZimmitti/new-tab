@@ -24,14 +24,14 @@
     "name"         : "Docs Spans",
     "description"  : "Documentation on android spans",
     "linkBookmark" : "http://old.flavienlaurent.com/blog/2014/01/31/spans/",
-    "linkFavicon"  : "http://old.flavienlaurent.com/favicon.png",
+    "linkFavicon"  : "https://www.nicepng.com/png/full/373-3730365_web-icons-vector-png-favicon.png",
     "headingId"    : "ANDROID"
   },
   {
     "name"         : "Java Decompilers",
     "description"  : "Decompile an android application",
     "linkBookmark" : "http://www.javadecompilers.com/",
-    "linkFavicon"  : "http://www.javadecompilers.com/favicon.ico",
+    "linkFavicon"  : "https://www.nicepng.com/png/full/373-3730365_web-icons-vector-png-favicon.png",
     "headingId"    : "ANDROID"
   },
   {
@@ -201,6 +201,13 @@
     "linkFavicon"  : "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
     "headingId"    : "DEV_TOOLS"
   },
+  {
+    "name"         : "Why No Padlock",
+    "description"  : "SSL website checks",
+    "linkBookmark" : "https://www.whynopadlock.com/09e01b13-bdfd-444a-a2ed-28f862089284",
+    "linkFavicon"  : "https://www.whynopadlock.com/assets/img/favicon/android-chrome-192x192.png?v=Gvk9gYRLGj",
+    "headingId"    : "DEV_TOOLS"
+  },
 
 
   {
@@ -214,7 +221,7 @@
     "name"         : "Ocean Of Games",
     "description"  : "Free video game downloads",
     "linkBookmark" : "http://oceanofgames.com/",
-    "linkFavicon"  : "http://oceanofgames.com/favicon.ico",
+    "linkFavicon"  : "https://www.nicepng.com/png/full/373-3730365_web-icons-vector-png-favicon.png",
     "headingId"    : "DOWNLOADS"
   },
   {
