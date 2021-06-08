@@ -7,7 +7,7 @@ import IBookmarkHeading from '../../components/BookmarkHeading/IBookmarkHeading'
  *  @property {IBookmarkHeading[]} dataBookmarkHeadings - The json data for all of the heading categories that the bookmarks belong to
  *  @property {IBookmark[]}        dataBookmarks        - The json data for all of the bookmarks
  */
-interface IBookmarks {
+export interface IBookmarks {
 
     /** Property dataBookmarkHeadings
      *  @description The json data for all of the heading categories that the bookmarks belong to
