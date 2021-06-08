@@ -91,5 +91,77 @@
     "linkBookmark" : "https://applicationize.me/",
     "linkFavicon"  : "https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-512.png",
     "headingId"    : "CONVERTERS"
+  },
+
+
+  {
+    "name"         : "Cloudflare",
+    "description"  : "Site Management",
+    "linkBookmark" : "https://dash.cloudflare.com/",
+    "linkFavicon"  : "https://dash.cloudflare.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "CloneZilla",
+    "description"  : "Full Disk Backup and Restoration by CloneZilla",
+    "linkBookmark" : "https://success.trendmicro.com/solution/1105066-full-disk-backup-and-restoration-by-clonezilla#collapseTwo",
+    "linkFavicon"  : "https://success.trendmicro.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "Firebase",
+    "description"  : "Platform for developing high-quality apps and to grow businesses",
+    "linkBookmark" : "https://console.firebase.google.com/",
+    "linkFavicon"  : "https://firebase.google.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "Freenom",
+    "description"  : "Domain Management",
+    "linkBookmark" : "https://my.freenom.com/clientarea.php?action=domains",
+    "linkFavicon"  : "https://my.freenom.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "MySQL Import/Export",
+    "description"  : "MySQL db import/export command line in windows",
+    "linkBookmark" : "https://dba.stackexchange.com/questions/25599/mysql-db-import-export-command-line-in-windows",
+    "linkFavicon"  : "https://dba.stackexchange.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "MySQL Reset Root",
+    "description"  : "How to reset or change MySQL root password on linux or windows",
+    "linkBookmark" : "https://phoenixnap.com/kb/how-to-reset-mysql-root-password-windows-linux",
+    "linkFavicon"  : "https://phoenixnap.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "MySQL Uninstall",
+    "description"  : "Uninstall a MySQL database",
+    "linkBookmark" : "https://answers.microsoft.com/en-us/windows/forum/all/how-to-completely-uninstall-mysql/e90e1344-7b90-4319-8b2f-77b271ae66ed",
+    "linkFavicon"  : "https://answers.microsoft.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "Node Deployment (Text)",
+    "description"  : "Deploy a node site to production",
+    "linkBookmark" : "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment",
+    "linkFavicon"  : "https://developer.mozilla.org/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "Node Deployment (Video)",
+    "description"  : "Deploy a node site to production",
+    "linkBookmark" : "https://www.youtube.com/playlist?list=PLQlWzK5tU-gDyxC1JTpyC2avvJlt3hrIh",
+    "linkFavicon"  : "https://www.youtube.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "Vercel",
+    "description"  : "Deploy a node site to production",
+    "linkBookmark" : "https://vercel.com/",
+    "linkFavicon"  : "https://assets.vercel.com/image/upload/q_auto/front/zeit/twitter-card.png",
+    "headingId"    : "DEV_OPS"
   }
 ]
