@@ -1,0 +1,58 @@
+[
+  {
+    "headingId" : "ALL",
+    "name"      : "All"
+  },
+  {
+    "headingId" : "ANDROID",
+    "name"      : "Android"
+  },
+  {
+    "headingId" : "CONVERTERS",
+    "name"      : "Converters"
+  },
+  {
+    "headingId" : "DEV_OPS",
+    "name"      : "DevOps"
+  },
+  {
+    "headingId" : "DEV_TOOLS",
+    "name"      : "Dev Tools"
+  },
+  {
+    "headingId" : "DOWNLOADS",
+    "name"      : "Downloads"
+  },
+  {
+    "headingId" : "FINANCE",
+    "name"      : "Finance"
+  },
+  {
+    "headingId" : "IOS",
+    "name"      : "IOS"
+  },
+  {
+    "headingId" : "MAC_OS",
+    "name"      : "MacOS"
+  },
+  {
+    "headingId" : "ML",
+    "name"      : "Machine Learning"
+  },
+  {
+    "headingId" : "SOCIAL",
+    "name"      : "Social"
+  },
+  {
+    "headingId" : "VIDEO_GAMES",
+    "name"      : "Video Games"
+  },
+  {
+    "headingId" : "WEB",
+    "name"      : "Web"
+  },
+  {
+    "headingId" : "WINDOWS",
+    "name"      : "Windows"
+  }
+]

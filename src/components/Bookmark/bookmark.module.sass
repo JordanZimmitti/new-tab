@@ -1,0 +1,28 @@
+.bookmark
+  display         : flex
+  flex-flow       : row nowrap
+  flex-shrink     : 0
+  position        : relative
+  justify-content : flex-start
+  align-content   : flex-start
+  align-items     : center
+  gap             : 1rem
+  border-radius   : 1.5rem
+  color           : #424242
+  cursor          : pointer
+  user-select     : none
+  margin          : 0
+  padding         : .1rem 1rem .1rem 1rem
+  height          : 3rem
+  width           : auto
+
+  // When Hovering Over The Tile//
+  @media (pointer: fine)
+    &:hover
+      background-color: #EF9A9A4D
+
+
+  // When A Phone Hovers Over The Tile//
+  @media (hover: none)
+    &hover
+      background-color: transparent

@@ -1,0 +1,78 @@
+.background
+  display         : flex
+  flex-flow       : column nowrap
+  flex            : 1 0 28rem
+  position        : relative
+  justify-content : center
+  align-content   : center
+  align-items     : center
+  background      : url('../assets/background.png') no-repeat
+  background-size : cover
+  border-radius   : 1rem
+  margin          : 1rem 0 0 0
+  padding         : 1rem
+  height          : auto
+  width           : calc(100% - 2rem)
+
+
+.clock
+  display         : flex
+  flex-flow       : column nowrap
+  position        : relative
+  justify-content : center
+  align-content   : center
+  align-items     : center
+  color           : #FFFFFF
+  font-family     : 'DIN Alternate', sans-serif
+  font-size       : 5.0em
+  margin          : 0
+  padding         : 0
+  height          : auto
+  width           : auto
+
+  // Phone Size//
+  @media only screen and (max-width: 38rem)
+    font-size: 4.5em
+
+
+.tile
+  display         : flex
+  flex-flow       : column nowrap
+  flex-shrink     : 0
+  position        : relative
+  color           : #424242
+  font-size       : 1.3em
+  margin          : 0
+  padding         : 0
+  height          : 15rem
+  width           : 15rem
+
+  // When Hovering Over The Tile//
+  @media (pointer: fine)
+    &:hover
+      color: #AA3036
+
+  // When A Phone Hovers Over The Tile//
+  @media (hover: none)
+    &hover
+      color: #424242
+
+  // Phone Size//
+  @media only screen and (max-width: 38rem)
+    height : 11rem
+    width  : 11rem
+
+
+.tiles
+  display         : flex
+  flex-flow       : row wrap
+  flex            : 0 0 auto
+  position        : relative
+  justify-content : space-evenly
+  align-content   : space-evenly
+  align-items     : center
+  gap             : 2rem
+  margin          : 0
+  padding         : 2rem 0 2rem 0
+  height          : auto
+  width           : 100%

@@ -1,0 +1,93 @@
+.container
+  display         : flex
+  flex-flow       : column nowrap
+  position        : relative
+  justify-content : flex-start
+  align-content   : flex-start
+  align-items     : flex-start
+  margin          : 1rem 0 0 0
+  padding         : 0
+  height          : auto
+  width           : auto
+
+
+.input
+  background      : transparent
+  border          : transparent
+  border-radius   : 2rem
+  color           : #424242
+  outline         : transparent
+  font-size       : 1.3em
+  margin          : 0 0 0 0
+  padding         : 0 1rem 0 1rem
+  height          : 3rem
+  width           : 40rem
+
+
+.search
+  display         : flex
+  flex-flow       : row nowrap
+  position        : relative
+  justify-content : flex-start
+  align-content   : flex-start
+  align-items     : flex-start
+  background      : #FFFFFF
+  border-radius   : 2rem
+  margin          : 0
+  padding         : 0
+  height          : 3rem
+  width           : 40rem
+
+  // Tablet Size//
+  @media only screen and (max-width: 48rem)
+    width: 30rem
+
+  // Phone Size//
+  @media only screen and (max-width: 38rem)
+    width: 23rem
+
+
+.suggestions
+  display          : flex
+  flex-flow        : column nowrap
+  position         : relative
+  justify-content  : flex-start
+  align-content    : flex-start
+  align-items      : flex-start
+  background-color : #FFFFFF
+  border-radius    : 1rem
+  gap              : .5rem
+  overflow-y       : scroll
+  margin           : 1rem 0 0 0
+  padding          : 1rem
+  height           : calc(16.5rem - 1rem)
+  width            : calc(40rem - 2rem)
+
+  // Tablet Size//
+  @media only screen and (max-width: 48rem)
+    width: calc(30rem - 2rem)
+
+  // Phone Size//
+  @media only screen and (max-width: 38rem)
+    width: calc(23rem - 2rem)
+
+
+.suggestionCommand
+  display         : flex
+  flex-flow       : row nowrap
+  position        : relative
+  justify-content : flex-start
+  align-content   : flex-start
+  align-items     : flex-start
+  cursor          : pointer
+  height          : auto
+  width           : 100%
+
+.text
+  display   : flex
+  flex-flow : row nowrap
+  position  : relative
+  color     : #424242
+  font-size : 1.3em
+  height    : auto
+  width     : auto

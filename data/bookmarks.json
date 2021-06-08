@@ -1,0 +1,407 @@
+[
+  {
+    "name"         : "Android Asset Studio",
+    "description"  : "Easily generate android application assets",
+    "linkBookmark" : "https://romannurik.github.io/AndroidAssetStudio/index.html",
+    "linkFavicon"  : "https://romannurik.github.io/AndroidAssetStudio/favicon.ico",
+    "headingId"    : "ANDROID"
+  },
+  {
+    "name"         : "APK Mirror",
+    "description"  : "Third party application market",
+    "linkBookmark" : "https://www.apkmirror.com/",
+    "linkFavicon"  : "https://www.apkmirror.com/favicon.ico",
+    "headingId"    : "ANDROID"
+  },
+  {
+    "name"         : "Docs Material Colors",
+    "description"  : "Documentation on material colors",
+    "linkBookmark" : "https://material-ui.com/customization/color/",
+    "linkFavicon"  : "https://material-ui.com/favicon.ico",
+    "headingId"    : "ANDROID"
+  },
+  {
+    "name"         : "Docs Spans",
+    "description"  : "Documentation on android spans",
+    "linkBookmark" : "http://old.flavienlaurent.com/blog/2014/01/31/spans/",
+    "linkFavicon"  : "http://old.flavienlaurent.com/favicon.png",
+    "headingId"    : "ANDROID"
+  },
+  {
+    "name"         : "Java Decompilers",
+    "description"  : "Decompile an android application",
+    "linkBookmark" : "http://www.javadecompilers.com/",
+    "linkFavicon"  : "http://www.javadecompilers.com/favicon.ico",
+    "headingId"    : "ANDROID"
+  },
+  {
+    "name"         : "Jitpack",
+    "description"  : "Publish JVM and Android libraries",
+    "linkBookmark" : "https://jitpack.io/",
+    "linkFavicon"  : "https://jitpack.io/favicon.ico",
+    "headingId"    : "ANDROID"
+  },
+  {
+    "name"         : "Kotlin Lang",
+    "description"  : "Site about the Kotlin language",
+    "linkBookmark" : "https://kotlinlang.org/",
+    "linkFavicon"  : "https://kotlinlang.org/assets/images/open-graph/kotlin_250x250.png",
+    "headingId"    : "ANDROID"
+  },
+  {
+    "name"         : "UI Libraries",
+    "description"  : "A variety of third party android UI libraries",
+    "linkBookmark" : "https://github.com/wasabeef/awesome-android-ui",
+    "linkFavicon"  : "https://github.com/favicon.ico",
+    "headingId"    : "ANDROID"
+  },
+
+
+  {
+    "name"         : "Audio And Video",
+    "description"  : "Converter for audio and video",
+    "linkBookmark" : "https://www.media.io/",
+    "linkFavicon"  : "https://www.media.io/favicon.ico",
+    "headingId"    : "CONVERTERS"
+  },
+  {
+    "name"         : "Ebooks",
+    "description"  : "Converter for ebooks",
+    "linkBookmark" : "https://www.zamzar.com/",
+    "linkFavicon"  : "https://www.zamzar.com/favicon.ico",
+    "headingId"    : "CONVERTERS"
+  },
+  {
+    "name"         : "HEX And RGB",
+    "description"  : "Converter for hex and rgb",
+    "linkBookmark" : "https://corecoding.com/utilities/rgb-or-hex-to-float.php",
+    "linkFavicon"  : "https://corecoding.com/favicon.ico",
+    "headingId"    : "CONVERTERS"
+  },
+  {
+    "name"         : "JPG To Text",
+    "description"  : "Converter for converting an image with text to text",
+    "linkBookmark" : "https://www.sodapdf.com/ocr-pdf/",
+    "linkFavicon"  : "https://www.sodapdf.com/favicon.ico",
+    "headingId"    : "CONVERTERS"
+  },
+  {
+    "name"         : "Website To App",
+    "description"  : "Converter for converting a website into a computer app",
+    "linkBookmark" : "https://applicationize.me/",
+    "linkFavicon"  : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEX///8AAP/r6/8ODv+goP/6+v+pqf+EhP+IiP/09P/7+//Bwf/l5f/Dw//39/9gYP+Li//b2//h4f/Pz/82Nv+Wlv+zs/86Ov9vb//X1/8ZGf8gIP/q6v9SUv9YWP/f3/9GRv+4uP9nZ/95ef8tLf/Jyf9OTv9FRf8/P/+vr/+np/9bW/90dP9ra/8mJv/MzP+hof+Rkf9GC6McAAAE00lEQVR4nO3diVqqQBgGYJDEzD2XQsuktNXqdP83d8AtIpBZ/Wem770B/+9BYHY8DwAAAAAAAAAAAAAAAAAAAAAAgEy9tnHTvKCuRL2oNX6/fV4GWx+jxbzx8tmmrkqRi1b/yi8W9MI76vJktc8eS9IdPHSa1FUKq4WV8baX8mFIXaqQwTVTvK1RSF0ut+GCI9/GV5e6Zh6ft7z5UmNrbsh2TyRfYvpCXTqbsWC+1NMldfXVog+JgIk+dYAqZ3L5Es9GX8am0BMmb0Ido1ykIl/igTpImVhRQN+fm/nekL8Fv13VTlt7jeX3GgoDJm3Vk3St6oOwfzvb/+ZHbzy5rJ8oYEJ7xMG48Ll4Hxb/8rnqgJqv4mVppzWxCH8/B1Teg3sjfY+bVWW37jr3Vo41BEze/ZrydUYsv97LDj+oeg/m3evIFzG3StaHP1Ftqimhf6Y+IM8DI9i3rua6Avq+6uGNaFb9m1lvm8uo4ymzN1Xb8f/HX0HkeXfqc2UovRUfRCp48Y68V1ToqAso2PFhGzAUN1M2A6D5UohT1el/og5STk3rTXR07BSuVQRU325WScHAzYQ6w3E96YBt6ghVbmQTck8xnFpDMuArdYBKU7meYi2gDlBNbgS1T10+gzeZgE3q6pnIDC4qHyPTQmKKuE5dOxuJv6nhL/sD8YS6Oz+qrEQDGt+c2RMek4qpK2d1K5pwTV05q6lgwDrT6K8RBPvBdrzuNwRHTnUNx2sg2DR9oa6bneCAlMzinhMTHK2xoV+xIziUYVFCwReiRQnnAvFqocmjpHn8E8Irm+IlRuXLQAqFS+qKefFdQ4tegwc892HLuuuXYn+WNu+paxXDPBkcU1cqasm2u+aCZw+EaV4ZAraNnehl8l454R1ZMH5/1FPFwHCHukB5wdHJ0pi6PCUi1wMeiTikrkyVoGRC2JqR32pBYRO8K7lVxyiPRQktbamVOP8d0PyZej4th2/CnfzKhWfqgpTLDbzZMgnK48d0YtP21miRZTbhF3U1WmSWLlg0vcQjs8TdoqkJLt8XkboSXQKXH6Rb+0X8Bq/flrQbXrykrkOjbTdKYBuMNbZHTNiy5EnE5m96Q12FVunIW4u6CK3SxqnZ+yhkpT1hjXsfDdCzZnmsqKDuaqv7oOnOIGmJyIupS9As9kLqEjQLte6yNsEZEloPCe33FxK6NiOT92rl+jUeE29FXYJmK8e7+OlYVJe6BM3qFuxDl/LkCR45Y430AEm3OxehkzP4WZvtbPbsvuM32ox527EXXcz2tAyXR2p2OxI5T2CzyMzxSW7fH7u9UMHPrIuyZrc2p/VhpcKAuhRNBt8LatxaebmX3ULj5lT+j0X7Lr71f56NdUFdjga53TPuzXX/WiTs2htjnQ9o0wEfLJYF+xHceikOfgd0Z09QKi4K6FILfFwc0J2lNQXbSdyKePQDLS60bSrO+bT/Xiy9B/di6gollTxFs+60fcXgBKZsO/Lt3ZDPfIxSx87RtxnH+fpdG18bDb6vQLTfqAvm9MZ/4N7ApgOGeoUt7err2Lfjfpz1xT8c0O2Y3zFed2S/wrL6MrdvvDwXPnf2p+Zw0pgvRtPAFNPlYt6YDFV/sGv31XMjcB5bBgAAAAAAAAAAAAAAAAAAAAAAf8V/GaqF9bmowIwAAAAASUVORK5CYII=",
+    "headingId"    : "CONVERTERS"
+  },
+
+
+  {
+    "name"         : "Cloudflare",
+    "description"  : "Site Management",
+    "linkBookmark" : "https://dash.cloudflare.com/b73ab9a53d08632d95bd794070d3cd77",
+    "linkFavicon"  : "https://dash.cloudflare.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "CloneZilla",
+    "description"  : "Full Disk Backup and Restoration by CloneZilla",
+    "linkBookmark" : "https://success.trendmicro.com/solution/1105066-full-disk-backup-and-restoration-by-clonezilla#collapseTwo",
+    "linkFavicon"  : "https://success.trendmicro.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "Firebase",
+    "description"  : "Platform for developing high-quality apps and to grow businesses",
+    "linkBookmark" : "https://console.firebase.google.com/",
+    "linkFavicon"  : "https://firebase.google.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "Freenom",
+    "description"  : "Domain Management",
+    "linkBookmark" : "https://my.freenom.com/clientarea.php?action=domains",
+    "linkFavicon"  : "https://my.freenom.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "MySQL Import/Export",
+    "description"  : "MySQL db import/export command line in windows",
+    "linkBookmark" : "https://dba.stackexchange.com/questions/25599/mysql-db-import-export-command-line-in-windows",
+    "linkFavicon"  : "https://dba.stackexchange.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "MySQL Reset Root",
+    "description"  : "How to reset or change MySQL root password on linux or windows",
+    "linkBookmark" : "https://phoenixnap.com/kb/how-to-reset-mysql-root-password-windows-linux",
+    "linkFavicon"  : "https://phoenixnap.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "MySQL Uninstall",
+    "description"  : "Uninstall a MySQL database",
+    "linkBookmark" : "https://answers.microsoft.com/en-us/windows/forum/all/how-to-completely-uninstall-mysql/e90e1344-7b90-4319-8b2f-77b271ae66ed",
+    "linkFavicon"  : "https://answers.microsoft.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "Node Deployment (Text)",
+    "description"  : "Deploy a node site to production",
+    "linkBookmark" : "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment\n",
+    "linkFavicon"  : "https://developer.mozilla.org/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
+    "name"         : "Node Deployment (Video)",
+    "description"  : "Deploy a node site to production",
+    "linkBookmark" : "https://www.youtube.com/playlist?list=PLQlWzK5tU-gDyxC1JTpyC2avvJlt3hrIh",
+    "linkFavicon"  : "https://www.youtube.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+
+
+  {
+    "name"         : "Github",
+    "description"  : "Cloud Coding Repositories",
+    "linkBookmark" : "https://github.com/",
+    "linkFavicon"  : "https://github.com/favicon.ico",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Hex Color Transparency",
+    "description"  : "Picker tool for material colors",
+    "linkBookmark" : "https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4",
+    "linkFavicon"  : "https://github.com/favicon.ico",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Material UI",
+    "description"  : "Everything about material ui",
+    "linkBookmark" : "https://material.io/",
+    "linkFavicon"  : "https://material.io/favicon.ico",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Material Colors Picker",
+    "description"  : "Picker tool for material colors",
+    "linkBookmark" : "https://material.io/resources/color",
+    "linkFavicon"  : "https://material.io/favicon.ico",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Material Icons",
+    "description"  : "A variety of icons for applications",
+    "linkBookmark" : "https://fonts.google.com/icons",
+    "linkFavicon"  : "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
+    "headingId"    : "DEV_TOOLS"
+  },
+
+
+  {
+    "name"         : "Adobe Acrobat",
+    "description"  : "Download and scan PDFs",
+    "linkBookmark" : "https://documentcloud.adobe.com/link/home/?filetype=application%2Fpdf&size=962260",
+    "linkFavicon"  : "https://documentcloud.adobe.com/favicon.ico",
+    "headingId"    : "DOWNLOADS"
+  },
+  {
+    "name"         : "Ocean Of Games",
+    "description"  : "Free video game downloads",
+    "linkBookmark" : "http://oceanofgames.com/",
+    "linkFavicon"  : "http://oceanofgames.com/favicon.ico",
+    "headingId"    : "DOWNLOADS"
+  },
+  {
+    "name"         : "Youtube",
+    "description"  : "Youtube video downloader",
+    "linkBookmark" : "https://www.onlineyoutube.com/YouTube-to-AIFF?url=http%3A%2F%2F",
+    "linkFavicon"  : "https://www.onlineyoutube.com/favicon.ico",
+    "headingId"    : "DOWNLOADS"
+  },
+  {
+    "name"         : "Youtube Music Playlists",
+    "description"  : "Youtube music playlist downloader",
+    "linkBookmark" : "https://webapps.stackexchange.com/questions/143818/print-playlist-from-youtube-music",
+    "linkFavicon"  : "https://webapps.stackexchange.com/favicon.ico",
+    "headingId"    : "DOWNLOADS"
+  },
+
+
+  {
+    "name"         : "Citizens Bank",
+    "description"  : "Online banking",
+    "linkBookmark" : "https://www.citizensbank.com/HomePage.aspx",
+    "linkFavicon"  : "https://www.citizensbank.com/favicon.ico",
+    "headingId"    : "FINANCE"
+  },
+  {
+    "name"         : "Intuit Mint",
+    "description"  : "Online banking",
+    "linkBookmark" : "https://mint.intuit.com/",
+    "linkFavicon"  : "https://mint.intuit.com/favicon.ico",
+    "headingId"    : "FINANCE"
+  },
+  {
+    "name"         : "Robinhood",
+    "description"  : "Investment broker",
+    "linkBookmark" : "https://robinhood.com/",
+    "linkFavicon"  : "https://robinhood.com/favicon.ico",
+    "headingId"    : "FINANCE"
+  },
+  {
+    "name"         : "Student Loans",
+    "description"  : "Student loan information",
+    "linkBookmark" : "https://studentaid.gov/fsa-id/sign-in/landing?redirectTo=%2F",
+    "linkFavicon"  : "https://studentaid.gov/favicon.ico",
+    "headingId"    : "FINANCE"
+  },
+
+
+  {
+    "name"         : "Change Finder Dock Icon",
+    "description"  : "How to set your own image as the finder dock icon on macOS",
+    "linkBookmark" : "https://www.igeeksblog.com/how-to-change-finder-dock-icon-on-mac/",
+    "linkFavicon"  : "https://www.igeeksblog.com/wp-content/uploads/2021/03/Favicon_Yellow.png",
+    "headingId"    : "MAC_OS"
+  },
+  {
+    "name"         : "Clear Icon Cache",
+    "description"  : "How to clear MacOS icon cache",
+    "linkBookmark" : "https://gist.github.com/fabiofl/5873100",
+    "linkFavicon"  : "https://github.com/favicon.ico",
+    "headingId"    : "MAC_OS"
+  },
+  {
+    "name"         : "Delete System Apps",
+    "description"  : "How to delete MacOS system apps",
+    "linkBookmark" : "https://osxdaily.com/2012/02/05/delete-safari-mail-facetime-other-default-mac-os-x-apps/",
+    "linkFavicon"  : "https://osxdaily.com/favicon.ico",
+    "headingId"    : "MAC_OS"
+  },
+  {
+    "name"         : "Icons",
+    "description"  : "Custom MacOS icons",
+    "linkBookmark" : "https://synth.agency/lab/flat-osx/",
+    "linkFavicon"  : "https://synth.agency/favicon.ico",
+    "headingId"    : "MAC_OS"
+  },
+  {
+    "name"         : "Location Of System icons",
+    "description"  : "The location paths of mac system icons",
+    "linkBookmark" : "https://osxdaily.com/2014/07/27/mac-os-x-system-icons-location/",
+    "linkFavicon"  : "https://osxdaily.com/favicon.ico",
+    "headingId"    : "MAC_OS"
+  },
+
+
+  {
+    "name"         : "Dialog Flow",
+    "description"  : "Natual language processing platform",
+    "linkBookmark" : "https://dialogflow.cloud.google.com/#/getStarted",
+    "linkFavicon"  : "https://dialogflow.cloud.google.com/favicon.ico",
+    "headingId"    : "ML"
+  },
+
+
+  {
+    "name"         : "Instagram",
+    "description"  : "Scroll through pictures and videos",
+    "linkBookmark" : "https://www.instagram.com/",
+    "linkFavicon"  : "https://www.instagram.com/favicon.ico",
+    "headingId"    : "SOCIAL"
+  },
+  {
+    "name"         : "Linkedin",
+    "description"  : "Social media for business",
+    "linkBookmark" : "https://www.linkedin.com/feed/",
+    "linkFavicon"  : "https://www.linkedin.com/favicon.ico",
+    "headingId"    : "SOCIAL"
+  },
+
+
+  {
+    "name"         : "CSS Books",
+    "description"  : "Book designs made in CSS",
+    "linkBookmark" : "https://freefrontend.com/css-book-effects/",
+    "linkFavicon"  : "https://freefrontend.com/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "CSS Books",
+    "description"  : "Book designs made in CSS",
+    "linkBookmark" : "https://blog.avada.io/css/book-effects/#pure-javascript-book-effect-przemys%C5%82aw-kopciara",
+    "linkFavicon"  : "https://blog.avada.io/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "CSS Flex",
+    "description"  : "How to use the css flexbox",
+    "linkBookmark" : "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    "linkFavicon"  : "https://css-tricks.com/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Next Auth",
+    "description"  : "A complete open source authentication solution for Next.js applications",
+    "linkBookmark" : "https://next-auth.js.org/getting-started/introduction",
+    "linkFavicon"  : "https://next-auth.js.org/img/logo/logo-xs.png",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Next Rendering Methods",
+    "description"  : "Different ways to fetch data in Next.JS",
+    "linkBookmark" : "https://wallis.dev/blog/nextjs-serverside-data-fetching",
+    "linkFavicon"  : "https://wallis.dev/favicon.png",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Next Rendering Methods",
+    "description"  : "Next.JS static, server-side, and client-side rendering",
+    "linkBookmark" : "https://binyamin.medium.com/static-server-side-and-client-side-rendering-with-nextjs-d5e1c61b24bd",
+    "linkFavicon"  : "https://medium.com/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Node Lang",
+    "description"  : "Site about the Node framework",
+    "linkBookmark" : "https://nodejs.org/en/",
+    "linkFavicon"  : "https://nodejs.org/static/images/logo-hexagon-card.png",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Populate Email",
+    "description"  : "Automatically open default email client and pre-populate content",
+    "linkBookmark" : "https://stackoverflow.com/questions/13231125/automatically-open-default-email-client-and-pre-populate-content",
+    "linkFavicon"  : "https://stackoverflow.com/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "React Image Upload",
+    "description"  : "How to upload an image to the backend",
+    "linkBookmark" : "https://www.youtube.com/watch?v=XeiOnkEI7XI",
+    "linkFavicon"  : "https://www.youtube.com/favicon.ico",
+    "headingId"    : "WEB"
+  },
+
+
+  {
+    "name"         : "Activate Windows",
+    "description"  : "Activate windows for free",
+    "linkBookmark" : "https://msguides.com/microsoft-software-products/windows-server.html",
+    "linkFavicon"  : "https://msguides.com/favicon.ico",
+    "headingId"    : "WINDOWS"
+  },
+  {
+    "name"         : "Disable QuickAccess",
+    "description"  : "How to disable windows quick-access",
+    "linkBookmark" : "https://answers.microsoft.com/en-us/windows/forum/windows_10-files-winpc/how-to-completely-disable-quick-access-in-windows/96e00b50-e064-4218-9fca-6522762ce57b",
+    "linkFavicon"  : "https://answers.microsoft.com/favicon.ico",
+    "headingId"    : "WINDOWS"
+  },
+  {
+    "name"         : "Install Wordpress",
+    "description"  : "How to Install WordPress on Windows Server 2019",
+    "linkBookmark" : "https://www.technologist.site/blog/2017/04/11/how-to-install-wordpress-on-windows-server-2016/3/",
+    "linkFavicon"  : "https://www.technologist.site/wp-content/uploads/2017/12/cropped-The-Technologist-Icon-512×512.png",
+    "headingId"    : "WINDOWS"
+  }
+]
