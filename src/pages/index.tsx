@@ -121,7 +121,7 @@ const Home: NextPage = (): JSX.Element => {
             colorRipple = {'#EF9A9A'}
             onClick     = {clickTile}>
             <Image
-                src    = {'/gmail.png'}
+                src    = {'/mail.png'}
                 width  = {80}
                 height = {65}
             />
