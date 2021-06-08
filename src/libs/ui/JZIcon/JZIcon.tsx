@@ -58,7 +58,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Accessibility JZIcon//
     const iconAccessibility = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -76,7 +76,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Account JZIcon//
     const iconAccount = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -94,7 +94,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Add JZIcon//
     const iconAdd = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'5 5 14 14'}
             height  = {'100%'}
             width   = {'100%'}
@@ -112,7 +112,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Archive JZIcon//
     const iconArchive = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -130,7 +130,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Backup JZIcon//
     const iconBackup = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 1 1 22 22'}
             viewBox           = {'1 1 22 22'}
             height            = {'100%'}
@@ -153,7 +153,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Bookmark JZIcon//
     const iconBookmark = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -171,7 +171,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Add Bookmark JZIcon//
     const iconBookmarkAdd = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 3.48 2.73 13.8 13.8'}
             viewBox           = {'3.48 2.73 13.8 13.8'}
             height            = {'100%'}
@@ -189,7 +189,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Bookmarks JZIcon//
     const iconBookmarks = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1 1 22 22'}
             height  = {'100%'}
             width   = {'100%'}
@@ -207,7 +207,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Bug Report JZIcon//
     const iconBugReport = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3.3 3.4 17.6 17.6'}
             height  = {'100%'}
             width   = {'100%'}
@@ -225,7 +225,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Calendar JZIcon//
     const iconCalendar = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 1 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -243,7 +243,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Check JZIcon//
     const iconCheck = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3.8 3.6 16.8 16.8'}
             height  = {'100%'}
             width   = {'100%'}
@@ -261,7 +261,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Clear JZIcon//
     const iconClear = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -279,7 +279,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Comment JZIcon//
     const iconComment = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -297,7 +297,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Add Comment JZIcon//
     const iconCommentAdd = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -315,7 +315,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Contact JZIcon//
     const iconContact = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -333,7 +333,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Copy JZIcon//
     const iconCopy = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 2 2 20 20'}
             viewBox           = {'2 2 20 20'}
             height            = {'100%'}
@@ -355,7 +355,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Cut JZIcon//
     const iconCut = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -373,7 +373,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Delete JZIcon//
     const iconDelete = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -391,7 +391,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Auto Delete JZIcon//
     const iconDeleteAuto = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 3 3 14 14'}
             viewBox           = {'3 3 14 14'}
             height            = {'100%'}
@@ -421,7 +421,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Delete Forever JZIcon//
     const iconDeleteForever = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 0 0 24 24'}
             viewBox           = {'3 3 18 18'}
             height            = {'100%'}
@@ -444,7 +444,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Sweep Delete JZIcon//
     const iconDeleteSweep = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -462,7 +462,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Edit JZIcon//
     const iconEdit = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2.99 2.9 18.1 18.1'}
             height  = {'100%'}
             width   = {'100%'}
@@ -480,7 +480,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Email JZIcon//
     const iconEmail = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -498,7 +498,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Favorite JZIcon//
     const iconFavorite = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 1.5 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -516,7 +516,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Feedback JZIcon//
     const iconFeedback = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -534,7 +534,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The File JZIcon//
     const iconFile = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -552,7 +552,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates Attach File JZIcon//
     const iconFileAttach = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1.7 1 22 22'}
             height  = {'100%'}
             width   = {'100%'}
@@ -570,7 +570,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Download File JZIcon//
     const iconFileDownload = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 3.5 3 17 17'}
             viewBox           = {'3.5 3 17 17'}
             height            = {'100%'}
@@ -592,7 +592,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Preview File JZIcon//
     const iconFilePreview = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1 1 22 22'}
             height  = {'100%'}
             width   = {'100%'}
@@ -610,7 +610,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Upload File JZIcon//
     const iconFileUpload = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 3.7 3.4 16.6 16.6'}
             viewBox           = {'3.7 3.4 16.6 16.6'}
             height            = {'100%'}
@@ -632,7 +632,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Filter icon//
     const iconFilter = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 4 4 16 16'}
             viewBox           = {'4 4 16 16'}
             height            = {'100%'}
@@ -657,7 +657,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Folder JZIcon//
     const iconFolder = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 2 2 20 20'}
             viewBox           = {'2 2 20 20'}
             height            = {'100%'}
@@ -676,7 +676,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Add Folder JZIcon//
     const iconFolderAdd = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 2 2 20 20'}
             viewBox           = {'2 2 20 20'}
             height            = {'100%'}
@@ -695,7 +695,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Help JZIcon//
     const iconHelp = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -713,7 +713,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The History JZIcon//
     const iconHistory = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1.7 1.8 20.4 20.4'}
             height  = {'100%'}
             width   = {'100%'}
@@ -731,7 +731,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Home JZIcon//
     const iconHome = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2.73 2.5 18.5 18.5'}
             height  = {'100%'}
             width   = {'100%'}
@@ -749,7 +749,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Image JZIcon//
     const iconImage = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -767,7 +767,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Add Image JZIcon//
     const iconImageAdd = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 2 19 19'}
             height  = {'100%'}
             width   = {'100%'}
@@ -785,7 +785,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Info JZIcon//
     const iconInfo = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -803,7 +803,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Link JZIcon//
     const iconLink = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -821,7 +821,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Add Link JZIcon//
     const iconLinkAdd = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 0 0 24 24'}
             viewBox           = {'2 2 20 20'}
             height            = {'100%'}
@@ -843,7 +843,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The List JZIcon//
     const iconList = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -867,7 +867,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Location JZIcon//
     const iconLocation = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 2 2 20 20'}
             viewBox           = {'2 2 20 20'}
             height            = {'100%'}
@@ -889,7 +889,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Closed Lock JZIcon//
     const iconLockClosed = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1.6 1 21 21'}
             height  = {'100%'}
             width   = {'100%'}
@@ -913,7 +913,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Open Lock JZIcon//
     const iconLockOpen = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1.6 1 21 21'}
             height  = {'100%'}
             width   = {'100%'}
@@ -931,7 +931,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Login JZIcon//
     const iconLogin = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 3 3 14 14'}
             viewBox           = {'3 3 14 14'}
             height            = {'100%'}
@@ -958,7 +958,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Logout JZIcon//
     const iconLogout = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 3 3 14 14'}
             viewBox           = {'1.5 1.5 21 21'}
             height            = {'100%'}
@@ -986,7 +986,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Menu JZIcon//
     const iconMenu = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'4 4 16 16'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1004,7 +1004,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Message JZIcon//
     const iconMessage = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1022,7 +1022,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Movie JZIcon//
     const iconMovie = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1040,7 +1040,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Notifications JZIcon//
     const iconNotifications = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2.2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1058,7 +1058,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Paste JZIcon//
     const iconPaste = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1 0 22 22'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1076,7 +1076,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The PDF JZIcon//
     const iconPdf = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1094,7 +1094,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The People JZIcon//
     const iconPeople = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1 1 22 22'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1112,7 +1112,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Person JZIcon//
     const iconPerson = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'4 4 16 16'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1130,7 +1130,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Add Person JZIcon//
     const iconPersonAdd = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1 1 22 22'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1148,7 +1148,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Print JZIcon//
     const iconPrint = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1166,7 +1166,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The QR Code JZIcon//
     const iconQRCode = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 3 3 18 18'}
             viewBox           = {'3 3 18 18'}
             height            = {'100%'}
@@ -1186,7 +1186,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Refresh JZIcon//
     const iconRefresh = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'4 4 16 16'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1204,7 +1204,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Router JZIcon//
     const iconRouter = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1218,7 +1218,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Save JZIcon//
     const iconSave = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1236,7 +1236,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Search JZIcon//
     const iconSearch = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 17 17'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1254,7 +1254,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Send JZIcon//
     const iconSend = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2 2.1 19.5 19.5'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1272,7 +1272,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Settings JZIcon//
     const iconSettings = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 2 2 20 20'}
             viewBox           = {'2 2 20 20'}
             height            = {'100%'}
@@ -1290,7 +1290,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Accessibility Settings JZIcon
     const iconSettingsAccessibility = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 0 0 24 24'}
             viewBox           = {'0 0 24 24'}
             height            = {'100%'}
@@ -1312,7 +1312,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Admin Settings JZIcon//
     const iconSettingsAdmin = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 4 4 12 12'}
             viewBox           = {'4 4 12 12'}
             height            = {'100%'}
@@ -1339,7 +1339,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Add To Cart JZIcon//
     const iconShoppingAdd = (): ReactNode => {
         return <svg
-            xmlns             = {'http://www.w3.org/2000/svg'}
+            xmlns             = {'https://www.w3.org/2000/svg'}
             enableBackground  = {'new 0 0 24 24'}
             viewBox           = {'.5 1 21 21'}
             height            = {'100%'}
@@ -1357,7 +1357,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Delete From Cart JZIcon
     const iconShoppingDelete = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'.3 .3 23.5 23.5'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1375,7 +1375,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Shopping Cart JZIcon//
     const iconShoppingView = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1393,7 +1393,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Sort JZIcon//
     const iconSort = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1411,7 +1411,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Alphanumeric Sort JZIcon//
     const iconSortAlpha = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'1.9 2 20 20'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1425,7 +1425,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Categorical Sort JZIcon//
     const iconSortCategory = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'2.8 2.8 19.3 19.3'}
             height  = {'100%'}
             width   = {'100%'}
@@ -1451,7 +1451,7 @@ const JZIcon = (props: IJZIcon) => {
     // Creates The Video JZIcon//
     const iconVideo = (): ReactNode => {
         return <svg
-            xmlns   = {'http://www.w3.org/2000/svg'}
+            xmlns   = {'https://www.w3.org/2000/svg'}
             viewBox = {'3 3 18 18'}
             height  = {'100%'}
             width   = {'100%'}
