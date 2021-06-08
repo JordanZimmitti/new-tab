@@ -157,6 +157,13 @@
     "linkFavicon"  : "https://www.youtube.com/favicon.ico",
     "headingId"    : "DEV_OPS"
   },
+  {
+    "name"         : "Vercel",
+    "description"  : "Deploy a node site to production",
+    "linkBookmark" : "https://vercel.com/",
+    "linkFavicon"  : "https://assets.vercel.com/image/upload/q_auto/front/zeit/twitter-card.png",
+    "headingId"    : "DEV_OPS"
+  },
 
 
   {
