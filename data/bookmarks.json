@@ -21,6 +21,20 @@
     "headingId"    : "ANDROID"
   },
   {
+    "name"         : "Docs Spans",
+    "description"  : "Documentation on android spans",
+    "linkBookmark" : "https://bit.ly/3g9IUhH",
+    "linkFavicon"  : "https://www.nicepng.com/png/full/373-3730365_web-icons-vector-png-favicon.png",
+    "headingId"    : "ANDROID"
+  },
+  {
+    "name"         : "Java Decompilers",
+    "description"  : "Decompile an android application",
+    "linkBookmark" : "https://bit.ly/3w58KZr",
+    "linkFavicon"  : "https://www.nicepng.com/png/full/373-3730365_web-icons-vector-png-favicon.png",
+    "headingId"    : "ANDROID"
+  },
+  {
     "name"         : "Jitpack",
     "description"  : "Publish JVM and Android libraries",
     "linkBookmark" : "https://jitpack.io/",
@@ -151,12 +165,11 @@
     "headingId"    : "DEV_OPS"
   },
 
-
   {
     "name"         : "Bitly",
     "description"  : "Url Shortener",
     "linkBookmark" : "https://bitly.com/",
-    "linkFavicon"  : "https://github.com/favicon.ico",
+    "linkFavicon"  : "https://bitly.com/favicon.ico",
     "headingId"    : "DEV_TOOLS"
   },
   {
@@ -208,6 +221,13 @@
     "description"  : "Download and scan PDFs",
     "linkBookmark" : "https://documentcloud.adobe.com/link/home/?filetype=application%2Fpdf&size=962260",
     "linkFavicon"  : "https://documentcloud.adobe.com/favicon.ico",
+    "headingId"    : "DOWNLOADS"
+  },
+  {
+    "name"         : "Ocean Of Games",
+    "description"  : "Free video game downloads",
+    "linkBookmark" : "https://bit.ly/3zcGy9e",
+    "linkFavicon"  : "https://www.nicepng.com/png/full/373-3730365_web-icons-vector-png-favicon.png",
     "headingId"    : "DOWNLOADS"
   },
   {
