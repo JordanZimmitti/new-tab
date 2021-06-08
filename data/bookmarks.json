@@ -54,5 +54,42 @@
     "linkBookmark" : "https://github.com/wasabeef/awesome-android-ui",
     "linkFavicon"  : "https://github.com/favicon.ico",
     "headingId"    : "ANDROID"
+  },
+
+
+  {
+    "name"         : "Audio And Video",
+    "description"  : "Converter for audio and video",
+    "linkBookmark" : "https://www.media.io/",
+    "linkFavicon"  : "https://www.media.io/favicon.ico",
+    "headingId"    : "CONVERTERS"
+  },
+  {
+    "name"         : "Ebooks",
+    "description"  : "Converter for ebooks",
+    "linkBookmark" : "https://www.zamzar.com/",
+    "linkFavicon"  : "https://www.zamzar.com/favicon.ico",
+    "headingId"    : "CONVERTERS"
+  },
+  {
+    "name"         : "HEX And RGB",
+    "description"  : "Converter for hex and rgb",
+    "linkBookmark" : "https://corecoding.com/utilities/rgb-or-hex-to-float.php",
+    "linkFavicon"  : "https://corecoding.com/favicon.ico",
+    "headingId"    : "CONVERTERS"
+  },
+  {
+    "name"         : "JPG To Text",
+    "description"  : "Converter for converting an image with text to text",
+    "linkBookmark" : "https://www.sodapdf.com/ocr-pdf/",
+    "linkFavicon"  : "https://www.sodapdf.com/favicon.ico",
+    "headingId"    : "CONVERTERS"
+  },
+  {
+    "name"         : "Website To App",
+    "description"  : "Converter for converting a website into a computer app",
+    "linkBookmark" : "https://applicationize.me/",
+    "linkFavicon"  : "https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-512.png",
+    "headingId"    : "CONVERTERS"
   }
 ]
