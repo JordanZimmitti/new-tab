@@ -214,5 +214,35 @@
     "linkBookmark" : "https://www.whynopadlock.com/",
     "linkFavicon"  : "https://www.whynopadlock.com/assets/img/favicon/android-chrome-192x192.png",
     "headingId"    : "DEV_TOOLS"
+  },
+
+
+  {
+    "name"         : "Adobe Acrobat",
+    "description"  : "Download and scan PDFs",
+    "linkBookmark" : "https://documentcloud.adobe.com/link/home/",
+    "linkFavicon"  : "https://documentcloud.adobe.com/favicon.ico",
+    "headingId"    : "DOWNLOADS"
+  },
+  {
+    "name"         : "Ocean Of Games",
+    "description"  : "Free video game downloads",
+    "linkBookmark" : "https://bit.ly/3zcGy9e",
+    "linkFavicon"  : "https://www.nicepng.com/png/full/373-3730365_web-icons-vector-png-favicon.png",
+    "headingId"    : "DOWNLOADS"
+  },
+  {
+    "name"         : "Youtube",
+    "description"  : "Youtube video downloader",
+    "linkBookmark" : "https://www.onlineyoutube.com/",
+    "linkFavicon"  : "https://www.onlineyoutube.com/favicon.ico",
+    "headingId"    : "DOWNLOADS"
+  },
+  {
+    "name"         : "Youtube Music Playlists",
+    "description"  : "Youtube music playlist downloader",
+    "linkBookmark" : "https://webapps.stackexchange.com/questions/143818/print-playlist-from-youtube-music",
+    "linkFavicon"  : "https://webapps.stackexchange.com/favicon.ico",
+    "headingId"    : "DOWNLOADS"
   }
 ]
