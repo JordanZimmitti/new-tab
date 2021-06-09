@@ -274,5 +274,42 @@
     "linkBookmark" : "https://studentaid.gov/",
     "linkFavicon"  : "https://studentaid.gov/favicon.ico",
     "headingId"    : "FINANCE"
+  },
+
+
+  {
+    "name"         : "Change Finder Dock Icon",
+    "description"  : "How to set your own image as the finder dock icon on macOS",
+    "linkBookmark" : "https://www.igeeksblog.com/how-to-change-finder-dock-icon-on-mac/",
+    "linkFavicon"  : "https://www.igeeksblog.com/wp-content/uploads/2021/03/Favicon_Yellow.png",
+    "headingId"    : "MAC_OS"
+  },
+  {
+    "name"         : "Clear Icon Cache",
+    "description"  : "How to clear MacOS icon cache",
+    "linkBookmark" : "https://gist.github.com/fabiofl/5873100/",
+    "linkFavicon"  : "https://github.com/favicon.ico",
+    "headingId"    : "MAC_OS"
+  },
+  {
+    "name"         : "Delete System Apps",
+    "description"  : "How to delete MacOS system apps",
+    "linkBookmark" : "https://osxdaily.com/2012/02/05/delete-safari-mail-facetime-other-default-mac-os-x-apps/",
+    "linkFavicon"  : "https://osxdaily.com/favicon.ico",
+    "headingId"    : "MAC_OS"
+  },
+  {
+    "name"         : "Icons",
+    "description"  : "Custom MacOS icons",
+    "linkBookmark" : "https://synth.agency/lab/flat-osx/",
+    "linkFavicon"  : "https://synth.agency/favicon.ico",
+    "headingId"    : "MAC_OS"
+  },
+  {
+    "name"         : "Location Of System icons",
+    "description"  : "The location paths of mac system icons",
+    "linkBookmark" : "https://osxdaily.com/2014/07/27/mac-os-x-system-icons-location/",
+    "linkFavicon"  : "https://osxdaily.com/favicon.ico",
+    "headingId"    : "MAC_OS"
   }
 ]
