@@ -331,6 +331,20 @@
 
 
   {
+    "name"         : "Culture Bucket",
+    "description"  : "Stock and trendy merch",
+    "linkBookmark" : "https://culturebucketnyc.com/",
+    "linkFavicon"  : "https://image.flaticon.com/icons/png/512/825/825500.png",
+    "headingId"    : "SHOPIFY"
+  },
+  {
+    "name"         : "Shopify Partners",
+    "description"  : "Shopify partner dashboard",
+    "linkBookmark" : "https://partners.shopify.com/2039695/resources/get_started",
+    "linkFavicon"  : "https://image.flaticon.com/icons/png/512/825/825500.png",
+    "headingId"    : "SHOPIFY"
+  },
+  {
     "name"         : "Shopify Rest API",
     "description"  : "Rest API documentation",
     "linkBookmark" : "https://shopify.dev/docs",
