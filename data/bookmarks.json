@@ -336,5 +336,70 @@
     "linkBookmark" : "https://www.linkedin.com/feed/",
     "linkFavicon"  : "https://www.linkedin.com/favicon.ico",
     "headingId"    : "SOCIAL"
+  },
+
+
+  {
+    "name"         : "CSS Books",
+    "description"  : "Book designs made in CSS",
+    "linkBookmark" : "https://freefrontend.com/css-book-effects/",
+    "linkFavicon"  : "https://freefrontend.com/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "CSS Books",
+    "description"  : "Book designs made in CSS",
+    "linkBookmark" : "https://blog.avada.io/css/book-effects/",
+    "linkFavicon"  : "https://blog.avada.io/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "CSS Flex",
+    "description"  : "How to use the css flexbox",
+    "linkBookmark" : "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    "linkFavicon"  : "https://css-tricks.com/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Next Auth",
+    "description"  : "A complete open source authentication solution for Next.js applications",
+    "linkBookmark" : "https://next-auth.js.org/getting-started/introduction/",
+    "linkFavicon"  : "https://next-auth.js.org/img/logo/logo-xs.png",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Next Rendering Methods",
+    "description"  : "Different ways to fetch data in Next.JS",
+    "linkBookmark" : "https://wallis.dev/blog/nextjs-serverside-data-fetching/",
+    "linkFavicon"  : "https://wallis.dev/favicon.png",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Next Rendering Methods",
+    "description"  : "Next.JS static, server-side, and client-side rendering",
+    "linkBookmark" : "https://binyamin.medium.com/static-server-side-and-client-side-rendering-with-nextjs-d5e1c61b24bd/",
+    "linkFavicon"  : "https://medium.com/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Node Lang",
+    "description"  : "Site about the Node framework",
+    "linkBookmark" : "https://nodejs.org/en/",
+    "linkFavicon"  : "https://nodejs.org/static/images/logo-hexagon-card.png",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Populate Email",
+    "description"  : "Automatically open default email client and pre-populate content",
+    "linkBookmark" : "https://stackoverflow.com/questions/13231125/automatically-open-default-email-client-and-pre-populate-content/",
+    "linkFavicon"  : "https://stackoverflow.com/favicon.ico",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "React Image Upload",
+    "description"  : "How to upload an image to the backend",
+    "linkBookmark" : "https://www.youtube.com/watch?v=XeiOnkEI7XI/",
+    "linkFavicon"  : "https://www.youtube.com/favicon.ico",
+    "headingId"    : "WEB"
   }
 ]
