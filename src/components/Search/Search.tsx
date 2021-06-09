@@ -121,9 +121,10 @@ const Search = (): JSX.Element => {
             case '\\a'  : location.href = `https://www.amazon.com/s?k=${searchWords.slice(0, -1)}`                  ; break
             case '\\d'  : location.href = `https://drive.google.com/drive/search?q=${stateSearch.substring(3)}`     ; break
             case '\\i'  : location.href = `https://www.google.com/search?tbm=isch&q=${searchWords.slice(0, -1)}`    ; break
+            case '\\m'  : location.href = `https://www.google.com/maps/search/${searchWords.slice(0, -1)}`          ; break
             case '\\ph' : location.href = `https://photos.google.com/search/${stateSearch.substring(3)}`            ; break
             case '\\pl' : location.href = `https://app.plex.tv/desktop/#!/search?query=${stateSearch.substring(4)}` ; break
-            case '\\r'   : location.href = `https://robinhood.com/stocks/${stateSearch.substring(3)}`               ; break
+            case '\\r'  : location.href = `https://robinhood.com/stocks/${stateSearch.substring(3)}`                ; break
             case '\\w'  : location.href = `https://${stateSearch.substring(3)}`                                     ; break
             case '\\y'  : location.href = `https://youtube.com/results?search_query=${searchWords.slice(0, -1)}`    ; break
             default     : location.href = `https://google.com/search?q=${searchWords.slice(0, -1)}`                 ; break
@@ -157,6 +158,12 @@ const Search = (): JSX.Element => {
                 onClick   = {()=> {clickSuggestion('\\i')}}>
                 <span className = {styles.text}>\i</span>
                 <span style = {{padding: '0 0 0 1.6rem'}} className = {styles.text}>Google Images</span>
+            </div>
+            <div
+                className = {styles.suggestionCommand}
+                onClick   = {()=> {clickSuggestion('\\m')}}>
+                <span className = {styles.text}>\m</span>
+                <span style = {{padding: '0 0 0 .8rem'}} className = {styles.text}>Google Maps</span>
             </div>
             <div
                 className = {styles.suggestionCommand}
