@@ -163,5 +163,56 @@
     "linkBookmark" : "https://vercel.com/",
     "linkFavicon"  : "https://assets.vercel.com/image/upload/q_auto/front/zeit/twitter-card.png",
     "headingId"    : "DEV_OPS"
+  },
+
+
+  {
+    "name"         : "Bitly",
+    "description"  : "Url Shortener",
+    "linkBookmark" : "https://bitly.com/",
+    "linkFavicon"  : "https://bitly.com/favicon.ico",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Github",
+    "description"  : "Cloud Coding Repositories",
+    "linkBookmark" : "https://github.com/",
+    "linkFavicon"  : "https://github.com/favicon.ico",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Hex Color Transparency",
+    "description"  : "Picker tool for material colors",
+    "linkBookmark" : "https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4",
+    "linkFavicon"  : "https://github.com/favicon.ico",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Material UI",
+    "description"  : "Everything about material ui",
+    "linkBookmark" : "https://material.io/",
+    "linkFavicon"  : "https://material.io/favicon.ico",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Material Colors Picker",
+    "description"  : "Picker tool for material colors",
+    "linkBookmark" : "https://material.io/resources/color",
+    "linkFavicon"  : "https://material.io/favicon.ico",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Material Icons",
+    "description"  : "A variety of icons for applications",
+    "linkBookmark" : "https://fonts.google.com/icons",
+    "linkFavicon"  : "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
+    "headingId"    : "DEV_TOOLS"
+  },
+  {
+    "name"         : "Why No Padlock",
+    "description"  : "SSL website checks",
+    "linkBookmark" : "https://www.whynopadlock.com/",
+    "linkFavicon"  : "https://www.whynopadlock.com/assets/img/favicon/android-chrome-192x192.png",
+    "headingId"    : "DEV_TOOLS"
   }
 ]
