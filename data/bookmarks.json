@@ -244,5 +244,35 @@
     "linkBookmark" : "https://webapps.stackexchange.com/questions/143818/print-playlist-from-youtube-music",
     "linkFavicon"  : "https://webapps.stackexchange.com/favicon.ico",
     "headingId"    : "DOWNLOADS"
+  },
+
+
+  {
+    "name"         : "Citizens Bank",
+    "description"  : "Online banking",
+    "linkBookmark" : "https://www.citizensbank.com/",
+    "linkFavicon"  : "https://www.citizensbank.com/favicon.ico",
+    "headingId"    : "FINANCE"
+  },
+  {
+    "name"         : "Intuit Mint",
+    "description"  : "Online banking",
+    "linkBookmark" : "https://mint.intuit.com/",
+    "linkFavicon"  : "https://mint.intuit.com/favicon.ico",
+    "headingId"    : "FINANCE"
+  },
+  {
+    "name"         : "Robinhood",
+    "description"  : "Investment broker",
+    "linkBookmark" : "https://robinhood.com/",
+    "linkFavicon"  : "https://robinhood.com/favicon.ico",
+    "headingId"    : "FINANCE"
+  },
+  {
+    "name"         : "Student Loans",
+    "description"  : "Student loan information",
+    "linkBookmark" : "https://studentaid.gov/",
+    "linkFavicon"  : "https://studentaid.gov/favicon.ico",
+    "headingId"    : "FINANCE"
   }
 ]
