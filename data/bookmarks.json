@@ -123,6 +123,13 @@
     "headingId"    : "DEV_OPS"
   },
   {
+    "name"         : "Google Cloud Console",
+    "description"  : "Google's cloud services",
+    "linkBookmark" : "https://console.cloud.google.com/",
+    "linkFavicon"  : "https://cloud.google.com/favicon.ico",
+    "headingId"    : "DEV_OPS"
+  },
+  {
     "name"         : "MySQL Import/Export",
     "description"  : "MySQL db import/export command line in windows",
     "linkBookmark" : "https://dba.stackexchange.com/questions/25599/mysql-db-import-export-command-line-in-windows",
