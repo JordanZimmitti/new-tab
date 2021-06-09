@@ -311,5 +311,30 @@
     "linkBookmark" : "https://osxdaily.com/2014/07/27/mac-os-x-system-icons-location/",
     "linkFavicon"  : "https://osxdaily.com/favicon.ico",
     "headingId"    : "MAC_OS"
+  },
+
+
+  {
+    "name"         : "Dialog Flow",
+    "description"  : "Natual language processing platform",
+    "linkBookmark" : "https://dialogflow.cloud.google.com/",
+    "linkFavicon"  : "https://dialogflow.cloud.google.com/favicon.ico",
+    "headingId"    : "ML"
+  },
+
+
+  {
+    "name"         : "Instagram",
+    "description"  : "Scroll through pictures and videos",
+    "linkBookmark" : "https://www.instagram.com/",
+    "linkFavicon"  : "https://www.instagram.com/favicon.ico",
+    "headingId"    : "SOCIAL"
+  },
+  {
+    "name"         : "Linkedin",
+    "description"  : "Social media for business",
+    "linkBookmark" : "https://www.linkedin.com/feed/",
+    "linkFavicon"  : "https://www.linkedin.com/favicon.ico",
+    "headingId"    : "SOCIAL"
   }
 ]
