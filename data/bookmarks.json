@@ -331,6 +331,15 @@
 
 
   {
+    "name"         : "Shopify Rest API",
+    "description"  : "Rest API documentation",
+    "linkBookmark" : "https://shopify.dev/docs",
+    "linkFavicon"  : "https://image.flaticon.com/icons/png/512/825/825500.png",
+    "headingId"    : "SHOPIFY"
+  },
+  
+  
+  {
     "name"         : "Instagram",
     "description"  : "Scroll through pictures and videos",
     "linkBookmark" : "https://www.instagram.com/",
