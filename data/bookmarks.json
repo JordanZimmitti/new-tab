@@ -401,5 +401,28 @@
     "linkBookmark" : "https://www.youtube.com/watch?v=XeiOnkEI7XI/",
     "linkFavicon"  : "https://www.youtube.com/favicon.ico",
     "headingId"    : "WEB"
+  },
+
+
+  {
+    "name"         : "Activate Windows",
+    "description"  : "Activate windows for free",
+    "linkBookmark" : "https://msguides.com/microsoft-software-products/windows-server.html/",
+    "linkFavicon"  : "https://msguides.com/favicon.ico",
+    "headingId"    : "WINDOWS"
+  },
+  {
+    "name"         : "Disable QuickAccess",
+    "description"  : "How to disable windows quick-access",
+    "linkBookmark" : "https://answers.microsoft.com/en-us/windows/forum/windows_10-files-winpc/how-to-completely-disable-quick-access-in-windows/96e00b50-e064-4218-9fca-6522762ce57b/",
+    "linkFavicon"  : "https://answers.microsoft.com/favicon.ico",
+    "headingId"    : "WINDOWS"
+  },
+  {
+    "name"         : "Install Wordpress",
+    "description"  : "How to Install WordPress on Windows Server 2019",
+    "linkBookmark" : "https://www.technologist.site/blog/2017/04/11/how-to-install-wordpress-on-windows-server-2016/3/",
+    "linkFavicon"  : "https://www.technologist.site/wp-content/uploads/2017/12/cropped-The-Technologist-Icon-512×512.png",
+    "headingId"    : "WINDOWS"
   }
 ]
