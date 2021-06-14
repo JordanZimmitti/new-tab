@@ -255,6 +255,13 @@
 
 
   {
+    "name"         : "Capital One",
+    "description"  : "Online banking",
+    "linkBookmark" : "https://www.capitalone.com/",
+    "linkFavicon"  : "https://www.capitalone.com/favicon.ico",
+    "headingId"    : "FINANCE"
+  },
+  {
     "name"         : "Citizens Bank",
     "description"  : "Online banking",
     "linkBookmark" : "https://www.citizensbank.com/",

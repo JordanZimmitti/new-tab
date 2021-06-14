@@ -18,10 +18,14 @@ const JZClock = (props: IJZClock) => {
     // Gets The Attributes From The Props//
     const {className = ''} = props
 
+    // Defines The NodeJS.Timeout Variable//
+    let timer: NodeJS.Timeout
+
     // When The Component Is First Rendered//
-    useEffect(() => {
-        getCurrentTime()
-    }, [])
+    useEffect(() => {getCurrentTime()}, [])
+
+    // Ends The Timer When The Page Changes//
+    useEffect(() => {return () => {clearTimeout(timer)}}, [])
 
     //</editor-fold>
 
@@ -53,7 +57,7 @@ const JZClock = (props: IJZClock) => {
         setStateTime(`${formattedHour}:${formattedMinute}:${formattedSecond} ${midday}`)
 
         // Starts A Timer To Get The Current Time Again In Another Second//
-        setTimeout(getCurrentTime, 1000)
+        timer = setTimeout(getCurrentTime, 1000)
     }
 
     /** Function formatTimeSection

@@ -16,7 +16,7 @@ const Search = (): JSX.Element => {
 
     // Defines The State Variables//
     const [stateIsCommand   , setStateIsCommand  ] = useState(false)
-    const [stateSuggestion  , setStateSuggestion ] = useState<JSX.Element[]>([<div/>])
+    const [stateSuggestion  , setStateSuggestion ] = useState<JSX.Element[]>([<div key={'suggestion_empty'}/>])
     const [stateSearch      , setStateSearch     ] = useState('')
     const [stateSearchQuery , setStateSearchQuery] = useState('')
 
@@ -40,7 +40,7 @@ const Search = (): JSX.Element => {
 
         // When No Suggestions Are Found//
         if (suggestions.length === 0) {
-            setStateSuggestion([<div/>])
+            setStateSuggestion([<div key={'suggestion_empty'}/>])
             return
         }
 
@@ -50,6 +50,7 @@ const Search = (): JSX.Element => {
         // Creates The Suggestions Element//
         const suggestionsElement = filteredSuggestions.map((suggestion) => {
             return <span
+                key       = {suggestion}
                 className = {styles.text}
                 onClick   = {()=> {clickSuggestion(suggestion)}}>
                 {suggestion}
@@ -58,7 +59,7 @@ const Search = (): JSX.Element => {
 
         // Sets The Suggestions//
         setStateSuggestion([
-            <div className={styles.suggestions}>
+            <div key = {'suggestion'} className={styles.suggestions}>
                 {suggestionsElement}
             </div>
         ])
@@ -140,56 +141,65 @@ const Search = (): JSX.Element => {
      *  @return {JSX.Element} The command suggestion view
      */
     const commandSuggestions = (): JSX.Element => {
-        return <div className={styles.suggestions}>
+        return <div key = {'command'} className={styles.suggestions}>
             <div
+                key       = {'command_a'}
                 className = {styles.suggestionCommand}
                 onClick   = {()=> {clickSuggestion('\\a')}}>
                 <span className = {styles.text}>\a</span>
                 <span style = {{padding: '0 0 0 1.25rem'}} className = {styles.text}>Amazon</span>
             </div>
             <div
+                key       = {'command_d'}
                 className = {styles.suggestionCommand}
                 onClick   = {()=> {clickSuggestion('\\d')}}>
                 <span className = {styles.text}>\d</span>
                 <span style = {{padding: '0 0 0 1.2rem'}} className = {styles.text}>Google Drive</span>
             </div>
             <div
+                key       = {'command_i'}
                 className = {styles.suggestionCommand}
                 onClick   = {()=> {clickSuggestion('\\i')}}>
                 <span className = {styles.text}>\i</span>
                 <span style = {{padding: '0 0 0 1.6rem'}} className = {styles.text}>Google Images</span>
             </div>
             <div
+                key       = {'command_m'}
                 className = {styles.suggestionCommand}
                 onClick   = {()=> {clickSuggestion('\\m')}}>
                 <span className = {styles.text}>\m</span>
                 <span style = {{padding: '0 0 0 .8rem'}} className = {styles.text}>Google Maps</span>
             </div>
             <div
+                key       = {'command_ph'}
                 className = {styles.suggestionCommand}
                 onClick   = {()=> {clickSuggestion('\\ph')}}>
                 <span className = {styles.text}>\ph</span>
                 <span style = {{padding: '0 0 0 .45rem'}} className = {styles.text}>Google Photos</span>
             </div>
             <div
+                key       = {'command_pl'}
                 className = {styles.suggestionCommand}
                 onClick   = {()=> {clickSuggestion('\\pl')}}>
                 <span className = {styles.text}>\pl</span>
                 <span style = {{padding: '0 0 0 .89rem'}} className = {styles.text}>Plex</span>
             </div>
             <div
+                key       = {'command_r'}
                 className = {styles.suggestionCommand}
                 onClick   = {()=> {clickSuggestion('\\r')}}>
                 <span className = {styles.text}>\r</span>
                 <span style = {{padding: '0 0 0 1.41rem'}} className = {styles.text}>Robinhood Stocks</span>
             </div>
             <div
+                key       = {'command_w'}
                 className = {styles.suggestionCommand}
                 onClick   = {()=> {clickSuggestion('\\w')}}>
                 <span className = {styles.text}>\w</span>
                 <span style = {{padding: '0 0 0 .97rem'}} className = {styles.text}>Website</span>
             </div>
             <div
+                key       = {'command_y'}
                 className = {styles.suggestionCommand}
                 onClick   = {()=> {clickSuggestion('\\y')}}>
                 <span className = {styles.text}>\y</span>

@@ -4,16 +4,16 @@ import {ReactNode}          from 'react'
 import {useEffect}          from 'react'
 import {useState}           from 'react'
 import Head                 from 'next/head'
-import Bookmark             from '../../components/Bookmark/Bookmark'
-import IBookmark            from '../../components/Bookmark/IBookmark'
-import BookmarkHeading      from '../../components/BookmarkHeading/BookmarkHeading'
-import Navbar               from '../../components/Navbar/Navbar'
-import JZPage               from '../../libs/ui/JZPage/JZPage'
-import JZTile               from '../../libs/ui/JZTile/JZTile'
-import styles               from '../../page-helper-files/bookmarks/bookmarks.module.sass'
-import IBookmarks           from '../../page-helper-files/bookmarks/IBookmarks'
-import dataBookmarks        from '../../../data/bookmarks.json'
-import dataBookmarkHeadings from '../../../data/bookmark-headings.json'
+import Bookmark             from '../components/Bookmark/Bookmark'
+import IBookmark            from '../components/Bookmark/IBookmark'
+import BookmarkHeading      from '../components/BookmarkHeading/BookmarkHeading'
+import Navbar               from '../components/Navbar/Navbar'
+import JZPage               from '../libs/ui/JZPage/JZPage'
+import JZTile               from '../libs/ui/JZTile/JZTile'
+import styles               from '../page-helper-files/bookmarks/bookmarks.module.sass'
+import IBookmarks           from '../page-helper-files/bookmarks/IBookmarks'
+import dataBookmarks        from '../../data/bookmarks.json'
+import dataBookmarkHeadings from '../../data/bookmark-headings.json'
 
 /** Function getStaticProps
  *  @description Function that gets the static data to populate on the site
@@ -169,6 +169,7 @@ const Bookmarks: NextPage<IBookmarks> = (props: IBookmarks): JSX.Element => {
     const bookmarkHeadings = (): ReactNode => {
         return dataBookmarkHeadings.map((bookmarkHeading) => {
             return <BookmarkHeading
+                key        = {bookmarkHeading.headingId}
                 headingId  = {bookmarkHeading.headingId}
                 isSelected = {stateHeadingIdSelected === bookmarkHeading.headingId}
                 name       = {bookmarkHeading.name}
@@ -195,8 +196,9 @@ const Bookmarks: NextPage<IBookmarks> = (props: IBookmarks): JSX.Element => {
         bookmarks.sort((b1, b2) => b1.name > b2.name? 1 : -1)
 
         // Maps The Bookmarks To The Bookmark Component//
-        return bookmarks.map((bookmark) => {
+        return bookmarks.map((bookmark, index) => {
             return <Bookmark
+                key          = {`BOOKMARK_${index}`}
                 description  = {bookmark.description}
                 name         = {bookmark.name}
                 linkBookmark = {bookmark.linkBookmark}
@@ -212,9 +214,10 @@ const Bookmarks: NextPage<IBookmarks> = (props: IBookmarks): JSX.Element => {
      *  @return {ReactNode} A component comprised of the last four bookmarks clicked
      */
     const recents = (): ReactNode => {
-        return stateRecentBookmarks.map((recentBookmark) => {
+        return stateRecentBookmarks.map((recentBookmark, index) => {
             return <JZTile
-                tileId      = {'RECENT_BOOKMARK'}
+                key         = {`RECENT_BOOKMARK_${index}`}
+                tileId      = {`RECENT_BOOKMARK_${index}`}
                 isShadow    = {false}
                 className   = {styles.recentTile}
                 colorRipple = {'#EF9A9A'}

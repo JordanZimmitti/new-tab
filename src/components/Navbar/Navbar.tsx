@@ -35,6 +35,7 @@ const Navbar = (): JSX.Element => {
     const bottomItems = (isExpanded: boolean): ReactNode[] => {
         return [
             <JZNavbarItem
+                key              = {0}
                 itemId           = {'PROFILE'}
                 name             = {'Profile'}
                 type             = {'image'}
@@ -56,6 +57,7 @@ const Navbar = (): JSX.Element => {
     const topItems = (isExpanded: boolean): ReactNode[] => {
         return [
             <JZNavbarItem
+                key              = {0}
                 itemId           = {'HOME'}
                 name             = {'Home'}
                 type             = {'icon'}
@@ -68,6 +70,7 @@ const Navbar = (): JSX.Element => {
                 onClick          = {clickNavbarItem}
             />,
             <JZNavbarItem
+                key              = {1}
                 itemId           = {'BOOKMARKS'}
                 name             = {'Bookmarks'}
                 type             = {'icon'}
@@ -80,6 +83,7 @@ const Navbar = (): JSX.Element => {
                 onClick          = {clickNavbarItem}
             />,
             <JZNavbarItem
+                key              = {2}
                 itemId           = {'PLEX'}
                 name             = {'Plex'}
                 type             = {'icon'}
@@ -92,6 +96,7 @@ const Navbar = (): JSX.Element => {
                 onClick          = {clickNavbarItem}
             />,
             <JZNavbarItem
+                key              = {3}
                 itemId           = {'ROUTER'}
                 name             = {'Router'}
                 type             = {'icon'}
