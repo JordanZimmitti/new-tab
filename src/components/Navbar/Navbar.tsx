@@ -1,8 +1,8 @@
 import {useRouter}  from 'next/router'
 import {ReactNode}  from 'react'
-import {JZIconType} from '../../libs/ui/JZIcon/IJZIcon'
-import JZNavbar     from '../../libs/ui/JZNavBar/JZNavbar'
-import JZNavbarItem from '../../libs/ui/JZNavBar/JZNavbarItem'
+import {JZIconType} from '@/libs/ui/JZIcon/IJZIcon'
+import JZNavbar     from '@/libs/ui/JZNavBar/JZNavbar'
+import JZNavbarItem from '@/libs/ui/JZNavBar/JZNavbarItem'
 
 /** Component Navbar
  *  @description Component that creates a navbar for navigating to different pages

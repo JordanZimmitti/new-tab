@@ -358,7 +358,14 @@
     "linkFavicon"  : "https://image.flaticon.com/icons/png/512/825/825500.png",
     "headingId"    : "SHOPIFY"
   },
-  
+  {
+    "name"         : "Shopify Storefront Tutorial",
+    "description"  : "How to setup a shopify storefront",
+    "linkBookmark" : "https://javascript.plainenglish.io/how-to-build-shopify-store-front-with-next-js-part-1-f7d4de7043a9",
+    "linkFavicon"  : "https://javascript.plainenglish.io/favicon.ico",
+    "headingId"    : "SHOPIFY"
+  },
+
   
   {
     "name"         : "Instagram",

@@ -4,16 +4,16 @@ import {ReactNode}          from 'react'
 import {useEffect}          from 'react'
 import {useState}           from 'react'
 import Head                 from 'next/head'
-import Bookmark             from '../components/Bookmark/Bookmark'
-import IBookmark            from '../components/Bookmark/IBookmark'
-import BookmarkHeading      from '../components/BookmarkHeading/BookmarkHeading'
-import Navbar               from '../components/Navbar/Navbar'
-import JZPage               from '../libs/ui/JZPage/JZPage'
-import JZTile               from '../libs/ui/JZTile/JZTile'
-import styles               from '../page-helper-files/bookmarks/bookmarks.module.sass'
-import IBookmarks           from '../page-helper-files/bookmarks/IBookmarks'
-import dataBookmarks        from '../../data/bookmarks.json'
-import dataBookmarkHeadings from '../../data/bookmark-headings.json'
+import Bookmark             from '@/components/Bookmark/Bookmark'
+import IBookmark            from '@/components/Bookmark/IBookmark'
+import BookmarkHeading      from '@/components/BookmarkHeading/BookmarkHeading'
+import Navbar               from '@/components/Navbar/Navbar'
+import dataBookmarks        from '@/data/bookmarks.json'
+import dataBookmarkHeadings from '@/data/bookmark-headings.json'
+import JZPage               from '@/libs/ui/JZPage/JZPage'
+import JZTile               from '@/libs/ui/JZTile/JZTile'
+import styles               from '@/pages-lib/bookmarks/bookmarks.module.sass'
+import IBookmarks           from '@/pages-lib/bookmarks/IBookmarks'
 
 /** Function getStaticProps
  *  @description Function that gets the static data to populate on the site
@@ -37,7 +37,7 @@ const Bookmarks: NextPage<IBookmarks> = (props: IBookmarks): JSX.Element => {
 
     //<editor-fold desc="Component Setup">
 
-    // Defines The State Variables//
+    // Defines The State Hooks//
     const [stateHeadingIdSelected , setStateHeadingIdSelected] = useState('ALL')
     const [stateBookmarks         , setStateBookmarks        ] = useState<IBookmark[]>([])
     const [stateRecentBookmarks   , setStateRecentBookmarks  ] = useState<[any]>([{}])

@@ -4,6 +4,7 @@ import { ReactNode } from 'react'
  *  @description Interface that describes the page component
  *  @author Jordan Zimmitti
  *  @property {ReactNode}                 children     - The components inside the page component body
+ *  @property {isAuth}                    [isAuth]     - Whether the page requires authentication to access it
  *  @property {boolean}                   [isScroll]   - Whether the page should scroll vertically if content overflows
  *  @property {ReactNode}                 [navbar]     - The navigation bar component for navigating to different pages
  *  @property {'row' | 'column'}          [direction]  - The direction that the inside components should be displayed in
@@ -15,6 +16,12 @@ interface IJZPage {
      *  @description The components inside the page component body
      */
     children: ReactNode
+
+    /** Property isAuth
+     *  @description Whether the page requires authentication to access it
+     *  @default true
+     */
+    isAuth?: boolean
 
     /** Property isScroll
      *  @description - Whether the page should scroll vertically if content overflows

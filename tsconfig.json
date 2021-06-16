@@ -8,11 +8,18 @@
     "resolveJsonModule"                : true,
     "skipLibCheck"                     : true,
     "strict"                           : true,
+    "baseUrl"                          : ".",
     "jsx"                              : "preserve",
     "module"                           : "esnext",
     "moduleResolution"                 : "node",
+    "sourceRoot"                       : "./src",
     "target"                           : "es5",
     "lib"                              : [ "dom", "dom.iterable", "esnext"],
+    "paths": {
+      "@/*"      : ["src/*"],
+      "@/api/*"  : ["pages/api/*"],
+      "@/data/*" : ["data/*"]
+    }
   },
   "include": [ "next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

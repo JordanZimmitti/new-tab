@@ -1,4 +1,5 @@
-import type { AppProps } from 'next/app'
+import {AppProps} from 'next/app'
+import {Provider} from 'next-auth/client'
 import './globals.sass'
 
 /** Function MyApp
@@ -9,7 +10,9 @@ import './globals.sass'
 const MyApp = ({ Component, pageProps }: AppProps) => {
 
   // Returns The Web-App//
-  return <Component {...pageProps} />
+  return <Provider session={pageProps.session}>
+    <Component {...pageProps} />
+  </Provider>
 }
 
 // Makes MyApp The Default Function//
