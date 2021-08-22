@@ -1,4 +1,7 @@
 import IJZPage from './IJZPage'
+import {useRouter} from "next/router";
+import {useSession} from "next-auth/client";
+import {useEffect} from "react";
 
 /** Component JZPage
  * @description Component that creates a top-level container for all of its child components to keep consistent styling
@@ -8,9 +11,23 @@ import IJZPage from './IJZPage'
  */
 const JZPage = (props: IJZPage): JSX.Element => {
 
+    // Defines The Router Hook//
+    const router = useRouter()
+
+    // Defines The Session Hook//
+    const [session, loading] = useSession()
+
+    // When The Component Is First Rendered//
+    useEffect(() => {
+        if (!session && !loading && isAuth) {
+            router.replace('/api/auth/signin')
+        }
+    }, [loading])
+
     // Gets The Attributes From The Props//
     const {
         children,
+        isAuth     = true,
         isScroll   = true,
         navbar     = <div/>,
         direction  = 'column',
@@ -51,10 +68,19 @@ const JZPage = (props: IJZPage): JSX.Element => {
 
     // Returns The Page Component//
     return <div style={styleContainer}>
-        {navbar}
-        <div style={styleContent}>
-            {children}
-        </div>
+        {!session && isAuth && (<div/>)}
+        {session && isAuth && (<>
+            {navbar}
+            <div style={styleContent}>
+                {children}
+            </div>
+        </>)}
+        {!isAuth && (<>
+            {navbar}
+            <div style={styleContent}>
+                {children}
+            </div>
+        </>)}
     </div>
 }
 

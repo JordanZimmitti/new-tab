@@ -3,11 +3,11 @@ import Head        from 'next/head'
 import Image       from 'next/image'
 import {ReactNode} from 'react'
 import styles      from './home.module.sass'
-import Navbar      from '../components/Navbar/Navbar'
-import Search      from '../components/Search/Search'
-import JZClock     from '../libs/ui/JZClock/JZClock'
-import JZPage      from '../libs/ui/JZPage/JZPage'
-import JZTile      from '../libs/ui/JZTile/JZTile'
+import Navbar      from '@/components/Navbar/Navbar'
+import Search      from '@/components/Search/Search'
+import JZClock     from '@/libs/ui/JZClock/JZClock'
+import JZPage      from '@/libs/ui/JZPage/JZPage'
+import JZTile      from '@/libs/ui/JZTile/JZTile'
 
 /** Page Home
  *  @description Page that shows the home dashboard to the user
@@ -154,6 +154,7 @@ const Home: NextPage = (): JSX.Element => {
 
     // Returns The Home Page//
     return <JZPage
+        isAuth = {false}
         navbar = {<Navbar/>}>
         {head()}
         <div className={styles.background}>
