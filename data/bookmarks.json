@@ -109,6 +109,15 @@
     "headingId"    : "DEV_OPS"
   },
   {
+    "name"         : "Codacy",
+    "description"  : "Application security testing",
+    "linkBookmark" : "https://app.codacy.com/organizations",
+    "linkFavicon"  : "https://app.codacy.com/static/media/codacy-logo.be9caad5.svg",
+    "headingId"    : "DEV_OPS"
+  },
+
+
+  {
     "name"         : "Firebase",
     "description"  : "Platform for developing high-quality apps and to grow businesses",
     "linkBookmark" : "https://console.firebase.google.com/",
@@ -409,6 +418,13 @@
     "description"  : "A complete open source authentication solution for Next.js applications",
     "linkBookmark" : "https://next-auth.js.org/getting-started/introduction/",
     "linkFavicon"  : "https://next-auth.js.org/img/logo/logo-xs.png",
+    "headingId"    : "WEB"
+  },
+  {
+    "name"         : "Next Auth Crash Course",
+    "description"  : "Authentication using NextAuth",
+    "linkBookmark" : "https://www.youtube.com/watch?v=o_wZIVmWteQ",
+    "linkFavicon"  : "https://www.youtube.com/favicon.ico",
     "headingId"    : "WEB"
   },
   {

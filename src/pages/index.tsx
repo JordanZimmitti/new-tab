@@ -154,6 +154,7 @@ const Home: NextPage = (): JSX.Element => {
 
     // Returns The Home Page//
     return <JZPage
+        isAuth = {false}
         navbar = {<Navbar/>}>
         {head()}
         <div className={styles.background}>

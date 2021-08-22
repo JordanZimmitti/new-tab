@@ -12,8 +12,8 @@ import dataBookmarks        from '@/data/bookmarks.json'
 import dataBookmarkHeadings from '@/data/bookmark-headings.json'
 import JZPage               from '@/libs/ui/JZPage/JZPage'
 import JZTile               from '@/libs/ui/JZTile/JZTile'
-import styles               from '@/pages-lib/bookmarks/bookmarks.module.sass'
-import IBookmarks           from '@/pages-lib/bookmarks/IBookmarks'
+import styles               from '@/page-files/bookmarks/bookmarks.module.sass'
+import IBookmarks           from '@/page-files/bookmarks/IBookmarks'
 
 /** Function getStaticProps
  *  @description Function that gets the static data to populate on the site
@@ -232,6 +232,7 @@ const Bookmarks: NextPage<IBookmarks> = (props: IBookmarks): JSX.Element => {
 
     // Returns The Bookmarks Page//
     return <JZPage
+        isAuth    = {false}
         isScroll  = {false}
         navbar    = {<Navbar/>}
         direction = {'row'}>
