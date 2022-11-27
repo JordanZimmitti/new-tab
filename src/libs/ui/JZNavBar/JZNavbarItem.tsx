@@ -101,6 +101,7 @@ const JZNavbarItem = (props: IJZNavbarItem): JSX.Element => {
     const navbarItemImage = (): ReactNode => {
         if (type === 'none') return null
         return <Image
+            alt    ={""}
             src    = {imageDir}
             height = {imageHeight}
             width  = {imageWidth}
