@@ -1,6 +1,5 @@
 import IJZPage from './IJZPage'
 import {useRouter} from "next/router";
-import {useSession} from "next-auth/client";
 import {useEffect} from "react";
 
 /** Component JZPage
@@ -13,16 +12,6 @@ const JZPage = (props: IJZPage): JSX.Element => {
 
     // Defines The Router Hook//
     const router = useRouter()
-
-    // Defines The Session Hook//
-    const [session, loading] = useSession()
-
-    // When The Component Is First Rendered//
-    useEffect(() => {
-        if (!session && !loading && isAuth) {
-            router.replace('/api/auth/signin')
-        }
-    }, [loading])
 
     // Gets The Attributes From The Props//
     const {
@@ -68,19 +57,10 @@ const JZPage = (props: IJZPage): JSX.Element => {
 
     // Returns The Page Component//
     return <div style={styleContainer}>
-        {!session && isAuth && (<div/>)}
-        {session && isAuth && (<>
-            {navbar}
-            <div style={styleContent}>
-                {children}
-            </div>
-        </>)}
-        {!isAuth && (<>
-            {navbar}
-            <div style={styleContent}>
-                {children}
-            </div>
-        </>)}
+        {navbar}
+        <div style={styleContent}>
+            {children}
+        </div>
     </div>
 }
 
