@@ -79,6 +79,7 @@ const Home: NextPage = (): JSX.Element => {
             colorRipple = {'#EF9A9A'}
             onClick     = {clickTile}>
             <Image
+                alt    ={""}
                 src    = {'/calendar.png'}
                 width  = {80}
                 height = {80}
@@ -100,6 +101,7 @@ const Home: NextPage = (): JSX.Element => {
             colorRipple = {'#EF9A9A'}
             onClick     = {clickTile}>
             <Image
+                alt    ={""}
                 src    = {'/drive.png'}
                 width  = {90}
                 height = {80}
@@ -121,6 +123,7 @@ const Home: NextPage = (): JSX.Element => {
             colorRipple = {'#EF9A9A'}
             onClick     = {clickTile}>
             <Image
+                alt    ={""}
                 src    = {'/mail.png'}
                 width  = {80}
                 height = {65}
@@ -142,6 +145,7 @@ const Home: NextPage = (): JSX.Element => {
             colorRipple = {'#EF9A9A'}
             onClick     = {clickTile}>
             <Image
+                alt    ={""}
                 src    = {'/photos.png'}
                 width  = {80}
                 height = {80}
